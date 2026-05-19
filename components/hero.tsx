@@ -10,8 +10,8 @@ export function Hero() {
   const { t } = useLanguage()
 
   return (
-    <section className="relative min-h-screen flex items-center bg-foreground">
-      <div className="absolute inset-0">
+    <section className="relative min-h-[100dvh] flex flex-col bg-foreground overflow-hidden">
+      <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-building.png"
           alt="Modern building exterior"
@@ -19,16 +19,16 @@ export function Hero() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-black/60" />
       </div>
 
-      <div className="container mx-auto px-6 pt-24 pb-16 relative z-10">
+      <div className="container mx-auto px-6 pt-32 pb-16 relative z-10 flex-grow flex flex-col justify-center">
         <div className="max-w-4xl">
           <p className="text-primary-foreground uppercase tracking-widest text-sm mb-6">
             {t.hero.tagline}
           </p>
 
-          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-background/95 leading-tight mb-8">
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-background/95 leading-tight mb-8">
             <span className="block">{t.hero.title}</span>
             <span className="block">{t.hero.titleHighlight}</span>
           </h1>
@@ -65,7 +65,7 @@ export function Hero() {
       </div>
 
       {/* Stats Bar */}
-      <div className="absolute bottom-0 left-0 right-0 bg-background/95 backdrop-blur-sm">
+      <div className="relative md:absolute md:bottom-0 left-0 right-0 z-20 bg-background/95 backdrop-blur-sm border-t border-border/10 md:border-t-0">
         <div className="container mx-auto px-6 py-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
