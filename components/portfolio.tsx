@@ -15,6 +15,7 @@ const projectsData = [
     title: "Residential Project 1",
     titleKey: "1" as const,
     category: "residential" as const,
+    location: "Wrocław",
     year: "2024",
     images: [
       "/images/residential/1/1.jpg",
@@ -26,7 +27,8 @@ const projectsData = [
     id: 2,
     title: "Residential Project 2",
     titleKey: "2" as const,
-    category: "residential" as const,
+    category: "commercial" as const,
+    location: "Wrocław",
     year: "2024",
     images: [
       "/images/residential/2/1.jpg",
@@ -38,6 +40,7 @@ const projectsData = [
     title: "Residential Project 3",
     titleKey: "3" as const,
     category: "residential" as const,
+    location: "Wrocław",
     year: "2024",
     images: [
       "/images/residential/3/1.jpg",
@@ -49,6 +52,7 @@ const projectsData = [
     title: "Residential Project 4",
     titleKey: "4" as const,
     category: "residential" as const,
+    location: "Wrocław",
     year: "2024",
     images: [
       "/images/residential/4/1.jpg",
@@ -60,6 +64,7 @@ const projectsData = [
     title: "Residential Project 5",
     titleKey: "5" as const,
     category: "residential" as const,
+    location: "Wrocław",
     year: "2024",
     images: [
       "/images/residential/5/1.jpg",
@@ -72,6 +77,7 @@ const projectsData = [
     title: "Residential Project 6",
     titleKey: "6" as const,
     category: "residential" as const,
+    location: "Wrocław",
     year: "2024",
     images: [
       "/images/residential/6/1.jpg",
@@ -81,24 +87,22 @@ const projectsData = [
   {
     id: 7,
     title: "Commercial Project 1",
-    titleKey: "1" as const,
+    titleKey: "7" as const,
     category: "commercial" as const,
+    location: "Wrocław",
     year: "2024",
     images: [
       "/images/commercial/1/1.jpg",
       "/images/commercial/1/2.jpg",
-      "/images/commercial/1/3.jpg",
-      "/images/commercial/1/4.jpg",
-      "/images/commercial/1/5.jpg",
-      "/images/commercial/1/6.jpg"
-
+      "/images/commercial/1/3.jpg"
     ],
   },
   {
     id: 8,
     title: "Commercial Project 2",
-    titleKey: "2" as const,
+    titleKey: "8" as const,
     category: "commercial" as const,
+    location: "Wrocław",
     year: "2024",
     images: [
       "/images/commercial/2/1.jpg",
@@ -108,8 +112,9 @@ const projectsData = [
   {
     id: 9,
     title: "Commercial Project 3",
-    titleKey: "3" as const,
+    titleKey: "9" as const,
     category: "commercial" as const,
+    location: "Wrocław",
     year: "2024",
     images: [
       "/images/commercial/3/1.jpg"
@@ -255,7 +260,7 @@ export function Portfolio() {
           projectTitle={t.portfolio.projects[selectedProject.titleKey].title}
           projectCategory={t.portfolio.filters[selectedProject.category]}
           projectDescription={t.portfolio.projects[selectedProject.titleKey].description}
-          // projectLocation={selectedProject.location}
+          projectLocation={selectedProject.location}
           projectYear={selectedProject.year}
           images={selectedProject.images}
         />

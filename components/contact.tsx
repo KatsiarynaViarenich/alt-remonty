@@ -45,7 +45,7 @@ export function Contact() {
           <div className="bg-card p-8 md:p-12 shadow-sm mb-12 rounded-2xl">
             <h3 className="font-serif text-3xl text-foreground mb-4 text-center">{t.contact.info.title}</h3>
             <p className="text-muted-foreground mb-12 text-center max-w-2xl mx-auto">{t.contact.info.description}</p>
-            
+
             <div className="grid md:grid-cols-3 gap-8">
               {contactInfo.map((item) => (
                 <div key={item.label} className="flex flex-col items-center text-center p-8 bg-primary/5 rounded-2xl transition-all duration-300 hover:bg-primary/10 hover:shadow-md hover:-translate-y-1">
@@ -65,13 +65,13 @@ export function Contact() {
               ))}
             </div>
           </div>
-
+          {/* 
           <div className="bg-card p-8 flex flex-col items-center justify-center text-center max-w-lg mx-auto rounded-2xl shadow-sm border border-border/50">
             <MapPin className="h-8 w-8 text-primary mb-3" />
             <p className="text-foreground font-medium text-lg">Ulica Oboźna 58/1</p>
             <p className="text-muted-foreground">52-244 Wrocław</p>
             <p className="text-muted-foreground mt-2">NIP: 8992579035</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -12,7 +12,7 @@ interface ProjectLightboxProps {
   projectTitle: string
   projectCategory: string
   projectDescription: string
-  // projectLocation: string
+  projectLocation: string
   projectYear: string
   images: string[]
 }
@@ -23,7 +23,7 @@ export function ProjectLightbox({
   projectTitle,
   projectCategory,
   projectDescription,
-  // projectLocation,
+  projectLocation,
   projectYear,
   images,
 }: ProjectLightboxProps) {

@@ -50,40 +50,40 @@ export const translations = {
             },
             "projects": {
                 "1": {
-                    "title": "Nowoczesne Mieszkanie",
-                    "description": "Kompleksowe wykończenie mieszkania w stylu nowoczesnym."
+                    "title": "Przytulna Łazienka",
+                    "description": "Wykończenie łazienki w ciepłych kolorach."
                 },
                 "2": {
-                    "title": "Apartament Loftowy",
-                    "description": "Wykończenie wnętrz z zachowaniem industrialnego charakteru."
+                    "title": "Wykończenie Pokoi Hotelowych",
+                    "description": "Wykończenie wnętrz hotelowych."
                 },
                 "3": {
-                    "title": "Generalny Remont Kamienicy",
-                    "description": "Pełna przebudowa i wymiana instalacji w starej kamienicy."
+                    "title": "Wykończenie Mieszkania",
+                    "description": "Wykończenie wnętrz mieszkania."
                 },
                 "4": {
-                    "title": "Przestrzeń Biurowa",
-                    "description": "Adaptacja lokalu pod przestrzeń biurową."
+                    "title": "Minimalistyczna Łazienka",
+                    "description": "Łazienka w czarno-białych kolorach."
                 },
                 "5": {
-                    "title": "Kawalerka Pod Klucz",
-                    "description": "Szybki i solidny remont kawalerki pod wynajem."
+                    "title": "Montaż Mebli Kuchennych",
+                    "description": "Przytulna kuchnia w beżowych odcieniach."
                 },
                 "6": {
-                    "title": "Salon Premium",
-                    "description": "Ekskluzywne wykończenie z dbałością o każdy detal."
+                    "title": "Nowoczesna Łazienka",
+                    "description": "Wykończenie łazienki z dbałością o każdy detal."
                 },
                 "7": {
-                    "title": "Premium Salon",
-                    "description": "Exclusive finishing with attention to every detail."
+                    "title": "Łazienka pod Wynajem",
+                    "description": "Szybkie wykończenie łazienki pod wynajem."
                 },
                 "8": {
-                    "title": "Premium Salon",
-                    "description": "Exclusive finishing with attention to every detail."
+                    "title": "Łazienki pod Wynajem",
+                    "description": "Wykończenie 5 łazienek w parafii."
                 },
                 "9": {
-                    "title": "Premium Salon",
-                    "description": "Exclusive finishing with attention to every detail."
+                    "title": "Elektryka w Hotelu",
+                    "description": "Kompleksowe wykonanie instalacji elektrycznej na 5 piętrach hotelu."
                 }
             }
         },
@@ -91,7 +91,7 @@ export const translations = {
             "tagline": "Nasze Usługi",
             "title": "Kompleksowe Wykończenia ",
             "titleHighlight": "Wnętrz",
-            "description": "Oferujemy pełen zakres usług wykończeniowych, od doradztwa i projektu po finalne sprzątanie.",
+            "description": "Oferujemy pełen zakres usług wykończeniowych, od doradztwa po finalne sprzątanie.",
             "items": {
                 "residential": {
                     "title": "Wykończenia pod klucz",
@@ -156,7 +156,7 @@ export const translations = {
                     "location": "Wykończenie łazienki"
                 },
                 "review3": {
-                    "text": "Jestem bardzo zadowolony ze współpracy z firmą Andrzej Łysakowski, która położyła u mnie nową instalację elektryczną, oraz gładź i pomalowali ściany.\nProfesjonalne podejście do klienta, pomoc na każdym etapie remontu. Ekspresowa obsługa, jakość na najwyższym poziomie, z której jestem bardzo zadowolony. Świetny i zgrany zespół.\nDziękuję za współpracę. :)",
+                    "text": "Jestem bardzo zadowolony ze współpracy z firmą, która położyła u mnie nową instalację elektryczną, oraz gładź i pomalowali ściany.\nProfesjonalne podejście do klienta, pomoc na każdym etapie remontu. Ekspresowa obsługa, jakość na najwyższym poziomie, z której jestem bardzo zadowolony. Świetny i zgrany zespół.\nDziękuję za współpracę. :)",
                     "author": "Zadowolony Klient",
                     "role": "Klient Indywidualny",
                     "location": "Wykończenie wnętrza"
@@ -237,7 +237,7 @@ export const translations = {
             "tagline": "ALT-remonty - Оздоблення Квартир",
             "title": "Ваш Інтер'єр, ",
             "titleHighlight": "Наша Точність",
-            "description": "Найвища якість, своєчасність та професійні консультації. Ми надаємо 2 роки гарантії на наші послуги, дбаючи про кожну деталь вашої квартири.",
+            "description": "Найвища якість, дотримання термінів та професійні консультації. Ми надаємо 2 роки гарантії на наші послуги, дбаючи про кожну деталь вашої квартири.",
             "cta": "Зв'яжіться з нами",
             "ctaSecondary": "Наші роботи",
             "stats": {
@@ -307,7 +307,7 @@ export const translations = {
             "tagline": "Наші послуги",
             "title": "Комплексне Оздоблення ",
             "titleHighlight": "Інтер'єрів",
-            "description": "Ми пропонуємо повний спектр послуг з оздоблення, від консультацій та дизайну до фінального прибирання.",
+            "description": "Ми пропонуємо повний спектр послуг з оздоблення, від консультацій до фінального прибирання.",
             "items": {
                 "residential": {
                     "title": "Оздоблення під ключ",
@@ -338,13 +338,13 @@ export const translations = {
         "about": {
             "tagline": "Більше про нас",
             "title": "Ми Робимо Ставку На ",
-            "titleHighlight": "Якість і Своєчасність",
+            "titleHighlight": "Якість і Дотримання Термінів",
             "description": "ALT-remonty - це досвідчена команда, яка роками займається оздобленням квартир на найвищому рівні. Наші знання та відданість справі гарантують успіх кожного проєкту.",
-            "descriptionSecondary": "Ми розуміємо, як важливий спокій під час ремонту. Тому ми дбаємо про своєчасність, надаємо поради на кожному етапі робіт і пропонуємо 2-річну гарантію на наші послуги. Якість завжди на першому місці.",
+            "descriptionSecondary": "Ми розуміємо, як важливий спокій під час ремонту. Тому ми дбаємо про строге дотримання термінів, надаємо поради на кожному етапі робіт і пропонуємо 2-річну гарантію на наші послуги. Якість завжди на першому місці.",
             "highlights": {
                 "licensed": "Гарантія 2 роки",
                 "safety": "Найвища якість виконання",
-                "warranty": "Дотримання строків",
+                "warranty": "Дотримання термінів",
                 "sustainable": "Професійні поради"
             },
             "stats": {
@@ -372,7 +372,7 @@ export const translations = {
                     "location": "Оздоблення ванної кімнати"
                 },
                 "review3": {
-                    "text": "Я дуже задоволений співпрацею з компанією Andrzej Łysakowski, яка проклала у мене нову електропроводку, а також зашпаклювала і пофарбувала стіни.\nПрофесійний підхід до клієнта, допомога на кожному етапі ремонту. Експрес-обслуговування, якість на найвищому рівні, чим я дуже задоволений. Чудова і злагоджена команда.\nДякую за співпрацю. :)",
+                    "text": "Я дуже задоволений співпрацею з компанією, яка проклала у мене нову електропроводку, а також зашпаклювала і пофарбувала стіни.\nПрофесійний підхід до клієнта, допомога на кожному етапі ремонту. Експрес-обслуговування, якість на найвищому рівні, чим я дуже задоволений. Чудова і злагоджена команда.\nДякую за співпрацю. :)",
                     "author": "Задоволений клієнт",
                     "role": "Індивідуальний клієнт",
                     "location": "Оздоблення інтер'єру"
@@ -422,7 +422,7 @@ export const translations = {
             }
         },
         "footer": {
-            "description": "ALT-remonty: найвища якість, дотримання строків, професійні консультації та 2 роки гарантії. Ваш надійний підрядник.",
+            "description": "ALT-remonty: найвища якість, дотримання термінів, професійні консультації та 2 роки гарантії. Ваш надійний підрядник.",
             "quickLinks": "Швидкі посилання",
             "services": "Послуги",
             "contactInfo": "Контакти",
@@ -453,7 +453,7 @@ export const translations = {
             "tagline": "ALT-remonty - Отделка Квартир",
             "title": "Ваш Интерьер, ",
             "titleHighlight": "Наша Точность",
-            "description": "Высочайшее качество, своевременность и профессиональные консультации. Мы предоставляем 2 года гарантии на наши услуги, заботясь о каждой детали вашей квартиры.",
+            "description": "Высочайшее качество, строгое соблюдение сроков и профессиональные консультации. Мы предоставляем 2 года гарантии на наши услуги, заботясь о каждой детали вашей квартиры.",
             "cta": "Свяжитесь с нами",
             "ctaSecondary": "Наши работы",
             "stats": {
@@ -523,7 +523,7 @@ export const translations = {
             "tagline": "Наши услуги",
             "title": "Комплексная Отделка ",
             "titleHighlight": "Интерьеров",
-            "description": "Мы предлагаем полный спектр услуг по отделке, от консультаций и дизайна до финальной уборки.",
+            "description": "Мы предлагаем полный спектр услуг по отделке, от консультаций до финальной уборки.",
             "items": {
                 "residential": {
                     "title": "Отделка под ключ",
@@ -554,9 +554,9 @@ export const translations = {
         "about": {
             "tagline": "Больше о нас",
             "title": "Мы Делаем Ставку На ",
-            "titleHighlight": "Качество и Своевременность",
+            "titleHighlight": "Качество и Соблюдение Сроков",
             "description": "ALT-remonty - это опытная команда, которая годами занимается отделкой квартир на высшем уровне. Наши знания и преданность делу гарантируют успех каждого проекта.",
-            "descriptionSecondary": "Мы понимает, как важно спокойствие во время ремонта. Поэтому мы заботимся о своевременности, предоставляем советы на каждом этапе работ и предлагаем 2-летнюю гарантию на наши услуги. Качество всегда на первом месте.",
+            "descriptionSecondary": "Мы понимает, как важно спокойствие во время ремонта. Поэтому мы заботимся о строгом соблюдении сроков, предоставляем советы на каждом этапе работ и предлагаем 2-летнюю гарантию на наши услуги. Качество всегда на первом месте.",
             "highlights": {
                 "licensed": "Гарантия 2 года",
                 "safety": "Высшее качество",
@@ -588,7 +588,7 @@ export const translations = {
                     "location": "Отделка ванной"
                 },
                 "review3": {
-                    "text": "Я очень доволен сотрудничеством с компанией Andrzej Łysakowski, которая проложила у меня новую электропроводку, а также зашпаклевала и покрасила стены.\nПрофессиональный подход к клиенту, помощь на каждом этапе ремонта. Экспресс-обслуживание, качество на высшем уровне, чем я очень доволен. Отличная и слаженная команда.\nСпасибо за сотрудничество. :)",
+                    "text": "Я очень доволен сотрудничеством с компанией, которая проложила у меня новую электропроводку, а также зашпаклевала и покрасила стены.\nПрофессиональный подход к клиенту, помощь на каждом этапе ремонта. Экспресс-обслуживание, качество на высшем уровне, чем я очень доволен. Отличная и слаженная команда.\nСпасибо за сотрудничество. :)",
                     "author": "Довольный клиент",
                     "role": "Индивидуальный клиент",
                     "location": "Отделка интерьера"
@@ -739,7 +739,7 @@ export const translations = {
             "tagline": "Our Services",
             "title": "Comprehensive Interior ",
             "titleHighlight": "Finishing",
-            "description": "We offer a full range of finishing services, from consulting and design to final cleaning.",
+            "description": "We offer a full range of finishing services, from consulting to final cleaning.",
             "items": {
                 "residential": {
                     "title": "Turnkey Finishing",
@@ -804,7 +804,7 @@ export const translations = {
                     "location": "Bathroom Finishing"
                 },
                 "review3": {
-                    "text": "I am very satisfied with the cooperation with the company Andrzej Łysakowski, who laid a new electrical installation for me, as well as plastered and painted the walls.\nProfessional approach to the client, help at every stage of the renovation. Express service, highest quality, which I am very happy with. A great and well-coordinated team.\nThanks for the cooperation. :)",
+                    "text": "I am very satisfied with the cooperation with the company, who laid a new electrical installation for me, as well as plastered and painted the walls.\nProfessional approach to the client, help at every stage of the renovation. Express service, highest quality, which I am very happy with. A great and well-coordinated team.\nThanks for the cooperation. :)",
                     "author": "Happy Client",
                     "role": "Individual Client",
                     "location": "Interior Finishing"

@@ -3,12 +3,12 @@ import { DM_Serif_Display, Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const dmSerif = DM_Serif_Display({ 
-  subsets: ["latin"], 
+const dmSerif = DM_Serif_Display({
+  subsets: ["latin"],
   weight: "400",
   variable: "--font-serif"
 });
-const inter = Inter({ 
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans"
 });
@@ -16,23 +16,41 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'ALT-remonty | Wykończenia Mieszkań',
   description: 'Profesjonalne wykończenie mieszkań pod klucz. 15+ lat doświadczenia, 200+ zrealizowanych projektów. 2 lata rękojmi, wysoka jakość i terminowość.',
+  keywords: ['wykończenia mieszkań', 'remonty', 'pod klucz', 'alt-remonty', 'budownictwo', 'projektowanie wnętrz', 'wrocław', 'wrocław remonty', 'wrocław wykończenia mieszkań'],
+  robots: {
+    index: true,
+    follow: true,
+  },
   generator: 'v0.app',
+  openGraph: {
+    title: 'ALT-remonty | Wykończenia Mieszkań',
+    description: 'Profesjonalne wykończenie mieszkań pod klucz. 15+ lat doświadczenia, 200+ zrealizowanych projektów. 2 lata rękojmi, wysoka jakość i terminowość.',
+    type: 'website',
+    locale: 'pl_PL',
+    images: ['/icon.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ALT-remonty | Wykończenia Mieszkań',
+    description: 'Profesjonalne wykończenie mieszkań pod klucz. 15+ lat doświadczenia, 200+ zrealizowanych projektów. 2 lata rękojmi, wysoka jakość i terminowość.',
+    images: ['/icon.png'],
+  },
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/icon.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/icon.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/icon.png',
+        type: 'image/png',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/icon.png',
   },
 }
 

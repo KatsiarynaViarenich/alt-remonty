@@ -39,7 +39,7 @@ export function Footer() {
             <p className="mt-4 text-background/70 leading-relaxed">
               {t.footer.description}
             </p>
-            <div className="flex gap-4 mt-6">
+            {/* <div className="flex gap-4 mt-6">
               {socialLinks.map((social) => (
                 <Link
                   key={social.label}
@@ -50,7 +50,7 @@ export function Footer() {
                   <social.icon className="h-4 w-4" />
                 </Link>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Services */}
@@ -59,7 +59,7 @@ export function Footer() {
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
                 <li key={link.label}>
-                  <Link 
+                  <Link
                     href={link.href}
                     className="text-background/70 hover:text-background transition-colors text-sm"
                   >
@@ -76,7 +76,7 @@ export function Footer() {
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.label}>
-                  <Link 
+                  <Link
                     href={link.href}
                     className="text-background/70 hover:text-background transition-colors text-sm"
                   >
@@ -106,14 +106,14 @@ export function Footer() {
           <p className="text-background/60 text-sm">
             © {new Date().getFullYear()} ALT-remonty. {t.footer.rights}
           </p>
-          <div className="flex gap-6 text-sm">
+          {/* <div className="flex gap-6 text-sm">
             <Link href="#" className="text-background/60 hover:text-background transition-colors">
               {t.footer.links.privacy}
             </Link>
             <Link href="#" className="text-background/60 hover:text-background transition-colors">
               {t.footer.links.terms}
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
